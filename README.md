@@ -13,14 +13,23 @@ Este proyecto implementa un encriptado de texto personalizado que permite a los 
 
 ## Responsividad 
 - **Pantalla de Laptop**
+
+  
   ![image](https://github.com/user-attachments/assets/7a7ddb3f-a309-4d6d-9846-53755dc8a7cb)
 
 
 - **Pantalla de Tablet**
+
+  
 ![image](https://github.com/user-attachments/assets/14336097-354b-4674-a438-552fc87d88aa)
 
+
+
 - **Pantalla de Celular**
+
+  
 ![image](https://github.com/user-attachments/assets/b42909d1-1325-4505-875c-f2fcbe246672)
+
 
 ## Tecnologías Utilizadas
 
