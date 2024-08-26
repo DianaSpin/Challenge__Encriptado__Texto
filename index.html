@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="
+    Este proyecto es un encriptador de texto cuya herramienta Un encriptador de texto es un software
+    o herramienta que transforma un texto claro en un formato ilegible o codificado.
+    Este proceso se conoce como cifrado o encriptación. 
+    La finalidad principal de este procedimiento es resguardar la información,
+    asegurando que solo individuos o sistemas que posean la clave correcta puedan descifrarlo 
+    y acceder al contenido original. ">
+  <meta name="keywords"
+        content="Encriptado, Desencriptado, key,">
+  <meta name="author" content="Diana Jeanete Mercado Pachuqueño">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Challenge Encriptado</title>
+</head> 
+
+<body>
+    <main>
+        <section class="section__first">
+        <header>
+            <div class="logo__container">
+            <a href="index.html"><img src="./img/Logo_de_Alura.png" alt="Logotipo de Alura" /></a>
+            </div>
+
+        </header>
+        <div class="input__container">
+            <textarea 
+            name="inputText" 
+            id="input__text" 
+            cols="30" 
+            rows="10" 
+            placeholder="Ingrese el texto aquí, porfavor:"
+            onkeypress="return (event.charCode >= 97 && event.charCode <= 122 || event.charCode == 32 || event.charCode == 241)"
+            min=1 ">
+            </textarea>
+
+            <div class="buttons__container">
+            <div class="instruction__container">
+                <img src="./img/Exclamación.png" alt="icono de alerta" />
+                <label for="instruction">Solo letras minúsculas y sin acentos</label>
+            </div>
+
+            <div class="action__buttons">
+                <button id="btn__encrypt" onclick="encryptBtn()">Encriptar</button>
+                <button id="btn__decrypt" onclick="decryptBtn()">Desencriptar</button>
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="section__second">
+        <div class="result__container">
+            <div class="image__container">
+                <img src="./img/Diseño sin título (7).png" alt="imagen de Among US" />
+            </div>
+            <p id="info__text1">Ningún mensaje fue encontrado</p>
+            <p id="info__text2">Ingresa el texto a encriptar o desencriptar, porfavor:</p>
+            
+            <div class="hidden">
+            <p class="result__text"></p>
+            </div>
+            <div class="hidden__button">
+            <button id="btn__copy">Copiar</button>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="creadora">
+            <button a href="https://www.linkedin.com/in/diana-mercado-mx" target="_blank">Creado por: Diana Mercado</a>
+        </div>
+    </footer>
+</body>
+<script src="./app.js"></script>
+
+</html>
