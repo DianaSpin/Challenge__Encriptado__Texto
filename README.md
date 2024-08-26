@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto implementa un encriptado de texto personalizado que permite a los usuarios cifrar y descifrar mensajes de manera sencilla y eficiente. El objetivo principal es proporcionar una herramienta fácil de usar que funcione en cualquier dispositivo, ya sea en computadoras de escritorio, tabletas o teléfonos móviles.
+Este proyecto implementa un encriptado de texto personalizado que permite a los usuarios cifrar y descifrar mensajes de manera sencilla y eficiente. El objetivo principal es proporcionar una herramienta fácil de usar que funcione en cualquier dispositivo, ya sea en computadoras de escritorio, tabletas o teléfonos móviles. Además que fue modificado ligeramente de la imagen de figma original de Alura (2024).
 
 ## Características
 
